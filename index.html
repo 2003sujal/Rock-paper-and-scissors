@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="choices">
+      <div id="rock" class="choice">
+        <img src="images/rock-paper-scissors-hand-icons 3.PNG" alt="rock" />
+      </div>
+      <div id="paper" class="choice">
+        <img src="images/rock-paper-scissors-hand-icons.PNG" alt="paper" />
+      </div>
+      <div id="scissors" class="choice">
+        <img src="images/rock-paper-scissors-hand-icons 2.PNG" alt="scissors" />
+      </div>
+    </div>
+    <div class="scoreboard">
+      <div id="user" class="score">
+        <p>User</p>
+        <p id="user_score">0</p>
+      </div>
+      <div id="computer" class="score">
+        <p>Computer</p>
+        <p id="comp_score">0</p>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="reset">Reset Scores</button>
+    </div>
+    <div class="move">
+      <p class="content">play your move</p>
+      <div class="latest-moves">
+        <div class="last user-last">
+          <p>Yours</p>
+          <img id="user_move_img" src="" alt="" />
+        </div>
+        <div class="last comp-last">
+          <p>Computer</p>
+          <img id="comp_move_img" src="" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
